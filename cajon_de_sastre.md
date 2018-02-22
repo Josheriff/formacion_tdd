@@ -39,3 +39,14 @@ Fases TDD:
 
 ## Property Based Testing??!!!
 
+
+# servicios
+
+- Servicios de Dominio (gestionan las entidades de negocio)
+- Servicios de Infraestructura... mailers, mapeadores, reload-rasterisk
+- Servicios de Aplicación (actions)
+
+    EJEMPLO:
+
+    http -> habla con el servicio de aplicación (acciones) -> entran al dominio -> estructura
+
