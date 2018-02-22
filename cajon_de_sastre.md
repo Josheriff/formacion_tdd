@@ -17,3 +17,14 @@ Fases TDD:
 - Ejecución
 - Aserción
 - TEAR DOWN <<<<--- Dejarlo todo como estaba
+
+
+## Test de integración:
+- Estrechos: Con mocks aka doubles
+- Anchos: Prueban partes mas completas, en vez de mock, el repository.
+
+### Dobles:
+- Dummy
+- Stub (cargas respuesta y la devuelve)
+- Spy (Verifica las llamadas)
+- Mock (configuras las llamadas y verificas que son llamadas como esperas)
