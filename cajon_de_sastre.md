@@ -35,4 +35,7 @@ Fases TDD:
     - Prueban el sistema al completo, ejemplo, correo electrónico... Se manda un correo y se mira la bandeja de entrada (automaticamente)
 
 
+## Escuela Detroit o London
+
+## Property Based Testing??!!!
 
