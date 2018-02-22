@@ -30,7 +30,7 @@ with description('Create and search clients'):
 
             expect(result).to(equal(expected_result))
 
-            with open('data.json', 'w'): pass
+            with open('data.json', 'w'): pass #after every test, the persistence must be cleaned
 
         with it('we can search the client'):
 
@@ -43,4 +43,4 @@ with description('Create and search clients'):
 
             expect(result).to(equal(expected_result))
 
-            with open('data.json', 'w'): pass
+            with open('data.json', 'w'): pass #after every test, the persistence must be cleaned
