@@ -26,4 +26,3 @@ with description('Given numbers as string'):
                 expected_result = '5'
                 expect(result).to(equal(expected_result))
 
-
