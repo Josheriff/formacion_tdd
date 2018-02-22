@@ -19,10 +19,16 @@ with description('Given numbers as string'):
             expected_result = '0'
             expect(result).to(equal(expected_result))
 
-        with description('given none and a number separated by commma'):
-            with it('None equals to 0 and give the sum'):
+    with description('given none and a number separated by commma'):
+        with it('None equals to 0 and give the sum'):
 
-                result = string_calculator(NUMBER_WITH_NONE)
-                expected_result = '5'
-                expect(result).to(equal(expected_result))
+            result = string_calculator(NUMBER_WITH_NONE)
+            expected_result = '5'
+            expect(result).to(equal(expected_result))
 
+    with description('given two int numbers separated by comma'):
+        with it('it return the sum of both numbers'):
+
+            result = string_calculator(TWO_NUMBERS)
+            expected_result = '3'
+            expect(result).to(equal(expected_result))
