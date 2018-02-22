@@ -25,6 +25,11 @@ CLIENT_CREATED = 201
 
 with description('Create and search clients'):
     with description('Given the name, surname, tlf, email'):
+
+        with after.each:
+        #clean repo
+            with open('data.json', 'w'): pass
+
         with it('we save all and add a timestamp'):
 
             result = create_client(CLIENT_BUSINESS_OBJECT)
@@ -33,7 +38,6 @@ with description('Create and search clients'):
 
             expect(result).to(equal(expected_result))
 
-            with open('data.json', 'w'): pass #after every test, the persistence must be cleaned
 
         with it('we can search the client'):
 
@@ -45,5 +49,3 @@ with description('Create and search clients'):
             expected_result = preformated_result.replace('/n',',')
 
             expect(result).to(equal(expected_result))
-
-            with open('data.json', 'w'): pass #after every test, the persistence must be cleaned
