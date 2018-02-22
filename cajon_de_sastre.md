@@ -28,3 +28,11 @@ Fases TDD:
 - Stub (cargas respuesta y la devuelve)
 - Spy (Verifica las llamadas)
 - Mock (configuras las llamadas y verificas que son llamadas como esperas)
+
+
+## Test Estrecho:
+- Test de contrato:
+    - Prueban el sistema al completo, ejemplo, correo electrónico... Se manda un correo y se mira la bandeja de entrada (automaticamente)
+
+
+
