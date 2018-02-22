@@ -7,5 +7,13 @@
 
 
 ### Primer Kata:
+
 El tema de los Katas, es practicar algo sencillo, tantas veces que se convierte en algo natural (memoria muscular)
 - Shohatto (kata de karate) -> String Calculator (Al código)
+
+
+Fases TDD:
+- Preparación
+- Ejecución
+- Aserción
+- TEAR DOWN <<<<--- Dejarlo todo como estaba

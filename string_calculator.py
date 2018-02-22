@@ -3,6 +3,7 @@
 def string_calculator(string):
     if len(string) == 0:
         return '0'
+    splitted = string.split(',')
     return '5'
 ###
 
@@ -10,6 +11,7 @@ from expects import expect, equal
 
 AN_EMPTY_STRING = ''
 NUMBER_WITH_NONE = '"","5"'
+TWO_NUMBERS = '"1","2"'
 
 with description('Given numbers as string'):
     with description('returns the sum of the numbers separated by comma'):
