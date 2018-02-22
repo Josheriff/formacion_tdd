@@ -1,3 +1,12 @@
+###
+
+def string_calculator(string):
+    return '0'
+###
+
+from expects import expect, equal
+
+AN_EMPTY_STRING = ''
 
 with description('Given numbers as string'):
     with description('returns the sum of the numbers separated by comma'):
