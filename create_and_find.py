@@ -49,3 +49,4 @@ with description('Create and search clients'):
             expected_result = preformated_result.replace('/n',',')
 
             expect(result).to(equal(expected_result))
+
