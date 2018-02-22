@@ -4,9 +4,12 @@ import json
 
 
 def create_client(client):
-    with open("data.json", "a") as myfile:
-        myfile.write(client)
-    return 201
+    try:
+        with open("data.json", "a") as myfile:
+            myfile.write(client)
+        return 201
+    except:
+        return 'ARENT YOU SHAME ABOUT THIS?'
 
 def search_clients():
     with open('data.json', 'r') as myfile:
