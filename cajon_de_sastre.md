@@ -50,3 +50,11 @@ Fases TDD:
 
     http -> habla con el servicio de aplicación (acciones) -> entran al dominio -> estructura
 
+
+# Respecto a MOCS:
+
+- Necesito doblar un objeto que no puedo reemplazar
+- Los logs son una funcionalidad
+- Doblar clases concretas
+- No se doblan valores
+
