@@ -4,7 +4,8 @@
 ### 2 Reglas TDD
 - Escribir código si y solo si, hay un test ya en rojo. (test primero, codigo despues).
 - Elimnar duplicación (cuando estés en verde).
-
+- NO USAR CONTROL DE FLUJO!!! (IF), SE HACEN 2 TEST Y LISTO
+i
 
 ### Primer Kata:
 
