@@ -1,11 +1,13 @@
 import requests
 
 
-with description('Given the name, surname, tlf, email'):
+with description('Given an endpoint'):
 
-    with it('we save all and add a timestamp'):
+    with it('If use get, returns all the agenda'):
 
-        result =  requests.get('https://localhost:8080').status
+        server_query =  requests.get('http://localhost:8080')
+        print(server_query,'KAMEHAMEHAAAAAAAAAAAA')
+        result = server_query.status
 
         expected_result = 200
 
